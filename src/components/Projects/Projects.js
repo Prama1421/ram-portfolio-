@@ -208,8 +208,8 @@ Utilized React Router for protected routes and persisted login state."
               imgPath={StopWatch}
               title="Stop Watch"
               description="The app features a stopwatch that starts running when the 'Start' button is clicked, stops when the 'Stop' button is pressed, and resets to zero when the 'Reset' button is clicked."
-              ghLink="https://github.com/bujji237/StopWatch"
-              demoLink="https://bujjistopwatch.ccbp.tech"              
+              ghLink="https://github.com/Prama1421/Stopwatch-CP-20"
+              demoLink="https://stopwatchl.ccbp.tech/"              
             />
           </Col>
         </Row>

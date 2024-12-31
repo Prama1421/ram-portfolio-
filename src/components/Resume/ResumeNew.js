@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
-import pdf from "../../Assets/../Assets/bujjiResume.pdf";
-// import pdf1 from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import pdf from "../../Assets/../Assets/RAMACHANDRA REDDY.pdf";
+
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;

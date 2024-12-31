@@ -11,13 +11,13 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Bujji Pillamgolla</h3>
+          <h3>Designed and Developed by P.RamachandraReddy</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/bujji237"
+                href="https://github.com/Prama1421"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -27,7 +27,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/bujji-pillamgolla"
+                href="https://www.linkedin.com/in/p-ramachandra-reddy-6200a31aa/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

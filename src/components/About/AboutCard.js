@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Bujji Pillamgolla </span>
-            from <span className="purple"> AndhraPradesh, India.</span>
+          Hi everyone, I am <span className="purple">Ramachandra Reddy Pothireddy </span>
+          a passionate aspiring software developer from <span className="purple"> AndhraPradesh, India.</span>
             <br />
-            I am currently looking for a job as a software developer (fresher).
+            I am actively seeking opportunities as a fresher software developer.
             <br />
-            Currentyly I am studying B.Tech final year in RGUKT Nuzvid.
+            I recently completed my B.Tech in Computer Science and Engineering at Sri Satyanarayana Engineering College (SSNEC), Ongole.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

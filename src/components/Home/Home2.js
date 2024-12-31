@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/bujji.jpg";
+import myImg from "../../Assets/ram.png";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -63,7 +63,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/bujji237"
+                  href="https://github.com/Prama1421"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -73,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/bujji-pillamgolla"
+                  href="https://www.linkedin.com/in/p-ramachandra-reddy-6200a31aa/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

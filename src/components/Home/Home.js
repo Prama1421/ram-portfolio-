@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import bujjiImg from "../../Assets/bujji.jpg";
+import bujjiImg from "../../Assets/ram.png";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -20,7 +20,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> BUJJI PILLAMGOLLA</strong>
+                <strong className="main-name"> RAMACHANDRA REDDY POTHIREDDY</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
