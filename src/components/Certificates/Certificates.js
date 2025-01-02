@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from "react";
+import Modal from "./Modal";
 import './Certificates.css';
 
 const certificates = [
@@ -67,21 +68,39 @@ const certificates = [
 ];
 
 const Certificates = () => {
+  const [selectedCertificate, setSelectedCertificate] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = (certificate) => {
+    setSelectedCertificate(certificate);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedCertificate(null);
+  };
+
   return (
     <div className="certificates-container container">
-      <h2>My Certi<strong class="purple">ficates</strong></h2>
+      <h2>My <strong className="purple">Certificates</strong></h2>
       <div className="certificates-grid">
         {certificates.map((cert, index) => (
           <div key={index} className="certificate-card">
             <h3>{cert.title}</h3>
             <p>{cert.issuer}</p>
-            
-            <a href={cert.link} target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <button onClick={() => openModal(cert)}>View Certificate</button>
           </div>
         ))}
       </div>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        certificate={selectedCertificate}
+      />
     </div>
   );
 };
+
 
 export default Certificates;

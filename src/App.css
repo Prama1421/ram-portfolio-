@@ -47,7 +47,7 @@
 .certificates-section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 .certificates-section h2 {
@@ -56,26 +56,30 @@
 
 .certificates-grid {
   display: grid ;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
-  /* grid-template-columns: auto auto auto auto; 
-  grid-template-rows: auto auto;   */
-  
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-columns: auto  auto auto auto  ; 
+  grid-template-rows: auto auto auto ;    */
+  justify-items: center;
   gap: 20px;
-  
+
 }
 
 .certificate-card {
   padding: 20px;
   background-color: transparent !important;
-  border: 1px solid #dee2e6;
+  border: 1px solid #ffffff;
+  
+  /* border: 1px solid #b3b3b3; */
   border-radius: 8px;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
   transition: transform 0.3s ease;
+  
 }
 
 .certificate-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(129, 72, 144, 0.7);
 }
 
 /* Scrollbar styles */
@@ -90,6 +94,7 @@
   }
 
   .certificates-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
